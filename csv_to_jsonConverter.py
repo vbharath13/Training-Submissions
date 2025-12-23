@@ -22,7 +22,8 @@ def csv_to_json(csv_file, json_file):
     except FileNotFoundError:
         print(" CSV file not found.")
     except Exception as e:
-        print(" Error:", e)
+        print(" Er" \
+        "ror:", e)
 
 
 
